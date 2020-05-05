@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+*{
+  margin: 10px;
+}
+
+/*header*/
+header{
+  /* position:fixed; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; 
+}
+
+.btn-login{
+  color: grey;
+  background-color:rgb(245, 193, 121);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 5px grey;
+  font-size: 18px;
+  margin: 20px;
+  height: 40px;
+  width: 100px;
+  }
+  
+  
+.btn-signin{
+    color: grey;
+    background-color:rgb(245, 193, 121);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 20px;
+    height: 40px;
+    width: 100px;
+    box-shadow: 7px 7px 5px grey;
+}
+
+button:hover{
+  background-color:rgb(253, 155, 22);
+}
+
+/*navbar*/
+.nav{
+  background-color:rgb(245, 193, 121);
+/*   position:fixed; */
+  display: flex;
+}
+
+a {
+  font-weight: bold;
+}
+
+p{
+  text-align: justify;
+}
+
+.nav-link{
+  padding:10px 10px 10px 0px;
+}
+
+/*body*/
+body {
+  font-family: 'Roboto';
+  size: 10px;
+  background-color: rgb(255, 248, 238)
+}
+
+
+
+.row1{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+.row2{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 90px;
+}
+
+
+.book{
+  border: 2px solid;
+  padding: 5px;
+  background-color: white;
+  height: 365px;
+  width: 360;
+  
+  
+}
+
+.bookdata{
+  height: 365px;
+  width: 360;
+
+}
+
+/*footer*/
+
+footer{
+  display: flex;
+  padding: 10px 20px 20px 20px;
+  justify-content: space-around;
+  background-color:rgb(245, 193, 121);
+
+}
+
+li{
+  list-style:none
+}
+/* social networks */
+li:hover{
+  text-decoration: underline; 
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
